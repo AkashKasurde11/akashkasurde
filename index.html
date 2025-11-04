@@ -40,38 +40,6 @@
             transform: translateY(-2px);
         }
 
-        /* iOS Liquid Background Animation (Floating Orbs) */
-        .liquid-orb {
-            position: absolute;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            opacity: 0.6;
-            filter: blur(50px);
-            z-index: 0;
-            animation: float-orb 15s infinite ease-in-out alternate;
-        }
-
-        .orb-1 {
-            background: linear-gradient(45deg, var(--accent-cyan), var(--accent-sapphire));
-            top: 10%;
-            left: 5%;
-            animation-duration: 18s;
-            transform: scale(1.2);
-        }
-        .orb-2 {
-            background: linear-gradient(45deg, #4facfe, #00f2fe);
-            top: 50%;
-            right: 10%;
-            animation-duration: 22s;
-            transform: scale(0.9);
-        }
-        @keyframes float-orb {
-            0% { transform: translate(0, 0) scale(1); }
-            50% { transform: translate(30px, -30px) scale(1.1); }
-            100% { transform: translate(-10px, 10px) scale(1); }
-        }
-
         /* Timeline Styles */
         .timeline-container {
             position: relative;
@@ -494,6 +462,7 @@
     </script>
 </body>
 </html>
+
 
 
 
